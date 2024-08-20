@@ -8,7 +8,7 @@ JetSearch - Related Results is an enhancement for the JetSearch plugin by Crocob
 
 The description from one of our users:
 
-The real case is: I have a site with Artists and the Paintings. And I want to give the possibility for customers to find the paintings by the Author. So they will type the Author's post title and the search results will display the Author's related paintings.
+> The real case is: I have a site with Artists and the Paintings. And I want to give the possibility for customers to find the paintings by the Author. So they will type the Author's post title and the search results will display the Author's related paintings.
 
 ## Instructions
 
