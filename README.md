@@ -23,8 +23,8 @@ The description from one of our users:
 3. **Set Relation ID**:
     By default, the plugin does not set a relation ID. You need to specify relation IDs for the plugin to work correctly. Add the following code to your theme or a custom plugin, replacing `YOUR_RELATION_IDS` with your actual relation IDs:
     ```php
-    add_filter( 'jet-search/ajax-search/relation_id', function( $rel_id, $query_data, $additional_sources ) {
+    add_filter( 'jet-search/ajax-search/relation_id', function( $rel_id, $query_data ) {
         return array( 'YOUR_RELATION_ID1', 'YOUR_RELATION_ID2', 'YOUR_RELATION_ID3' );
-    } );
+    }, 10, 2);
     ```
 
